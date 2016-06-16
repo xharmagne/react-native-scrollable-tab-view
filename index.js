@@ -201,7 +201,7 @@ const ScrollableTabView = React.createClass({
 
   getTabDetails(tab) {
     return {name: tab.props.tabLabel, icon: tab.props.tabIcon};
-  }
+  },
 
   render() {
     let overlayTabs = (this.props.tabBarPosition === 'overlayTop' || this.props.tabBarPosition === 'overlayBottom');
